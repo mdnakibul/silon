@@ -1,0 +1,31 @@
+/* @media (max-width: 767px){
+    .top-header{
+        display: none;
+    }
+} */
+@media (max-width:767px) and (min-width:576px){
+    ul.customNav2 li {
+        margin: 0px 10px;
+    }
+}
+@media (max-width:576px){
+    .customNav2{
+        display: none;
+    }
+}
+@media (max-width:1199px) and (min-width:768px){
+    p.comments{
+        float: left;
+    }
+    p.category{
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 475px){
+    p.comments{
+        float: left;
+    }
+    p.category{
+        margin-bottom: 0px;
+    }
+}
